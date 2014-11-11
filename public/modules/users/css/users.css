@@ -1,0 +1,51 @@
+.social-login-icon
+{
+    font-size: 128px;
+}
+
+.social-login-icon:hover
+{
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+}
+
+.social-login-icon.icon-social-facebook
+{
+    color: #3B5384;
+}
+
+.social-login-icon.icon-social-twitter
+{
+    color: #40B2DC;
+}
+
+.social-login-icon.icon-social-google-plus
+{
+    color: #DD4B39;
+}
+
+.social-login-icon.icon-social-linkedin
+{
+    color: #006699;
+}
+
+.social-login-icon.icon-social-github
+{
+    color: #000000;
+}
+
+@media (min-width: 992px) {
+	.nav-users {
+		position: fixed;
+	}
+}
+
+.remove-account-container {
+	display: inline-block;
+	position: relative;
+}
+
+.btn-remove-account {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}

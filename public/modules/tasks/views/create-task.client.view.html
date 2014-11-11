@@ -1,0 +1,82 @@
+<section data-ng-controller="TasksController" data-ng-init="init()">
+	<div class="page-header">
+		<h1>New Task</h1>
+	</div>
+	<div class="col-md-12">
+		<form name="taskForm" class="form-horizontal" data-ng-submit="create()" novalidate>
+			<fieldset>
+				<div class="form-group" ng-class="{ 'has-error': taskForm.title.$dirty && taskForm.title.$invalid }">
+					<label class="control-label" for="title">Title</label>
+					<div class="controls">
+						<input name="title" type="text" data-ng-model="task.title" id="title" class="form-control" placeholder="Title" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="description">Description</label>
+					<div class="controls">
+						<textarea name="description" data-ng-model="task.description" id="description" class="form-control" cols="30" rows="10" placeholder="Description"></textarea>
+					</div>
+				</div>
+                <div class="form-group">
+                    <label class="control-label">Priority</label>
+                    <div class="btn-group">
+                        <label class="btn btn-primary" ng-model="task.priority" btn-radio="0">Lowest</label>
+                        <label class="btn btn-primary" ng-model="task.priority" btn-radio="1">Low</label>
+                        <label class="btn btn-primary" ng-model="task.priority" btn-radio="2">Medium</label>
+                        <label class="btn btn-primary" ng-model="task.priority" btn-radio="3">High</label>
+                        <label class="btn btn-primary" ng-model="task.priority" btn-radio="4">Highest</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Expected Time(How long this task is going to take)</label>
+                    <div class="btn-group" dropdown data-ng-model="task.repeat.checkOn">
+                        <button type="button" class="btn btn-primary dropdown-toggle"  ng-disabled="disabled">
+                            Up to {{ task.expectedTime }} hour(s) <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu scrollable-menu" role="menu">
+                            <li data-ng-repeat="time in times" data-ng-click="setExpectedTime(time)"><a>Up to {{time}} hour(s)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Repeat Period</label>
+                    <div class="btn-group">
+                        <label class="btn btn-primary" ng-model="task.repeat.period" btn-radio="'daily'">Daily</label>
+                        <label class="btn btn-primary" data-ng-click="setCheckDay(task.period.checkOn)" ng-model="task.repeat.period" btn-radio="'weekly'">Weekly</label>
+                        <label class="btn btn-primary" data-ng-click="setCheckDay(task.period.checkOn)" ng-model="task.repeat.period" btn-radio="'monthly'">Monthly</label>
+                    </div>
+                </div>
+                <div data-ng-if="task.repeat.period ==='weekly'" class="form-group">
+                    <label class="control-label">Check On</label>
+                    <div class="btn-group" dropdown >
+                        <button type="button" class="btn btn-primary dropdown-toggle"  ng-disabled="disabled">
+                            {{ currentCheckOn || 'Choose Day' }} <span class="caret"></span>
+                        </button>
+                        <ul data-ng-if="task.repeat.period==='weekly'" class="dropdown-menu scrollable-menu" role="menu">
+                            <li data-ng-repeat="day in daysInWeek track by $index" data-ng-click="setCheckDay($index)"><a>{{day}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-ng-if="task.repeat.period ==='monthly'" class="form-group">
+                    <label class="control-label">Check On</label>
+                    <div class="btn-group" dropdown >
+                        <button type="button" class="btn btn-primary dropdown-toggle"  ng-disabled="disabled">
+                            {{ currentCheckOn || 'Choose Day' }} <span class="caret"></span>
+                        </button>
+                        <ul data-ng-if="task.repeat.period==='monthly'" class="dropdown-menu scrollable-menu" role="menu">
+                            <li data-ng-repeat="day in daysInMonth" data-ng-click="setCheckDay(day)"><a>{{day}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-default">
+                </div>
+                <div data-ng-show="error" class="alert alert-warning alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <strong data-ng-bind="error"></strong>
+                </div>
+
+			</fieldset>
+		</form>
+	</div>
+</section>

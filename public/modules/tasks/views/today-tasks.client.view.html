@@ -1,0 +1,8 @@
+<section data-ng-controller="TasksController" data-ng-init="today()">
+    <div class="page-header">
+        <h1>Today</h1>
+    </div>
+    <div data-ng-repeat="task in tasks" class="panel panel-default">
+        <div>{{ task.title }}</div>
+    </div>
+</section>

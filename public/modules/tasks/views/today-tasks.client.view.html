@@ -5,4 +5,7 @@
     <div data-ng-repeat="task in tasks" class="panel panel-default">
         <div>{{ task.title }}</div>
     </div>
+    <div class="alert alert-warning text-center" data-ng-if="tasks.$resolved && !tasks.length">
+        Nothing to do today! Woohoo!
+    </div>
 </section>

@@ -92,6 +92,15 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+        forever: {
+            server: {
+                options: {
+                    index: 'server.js',
+                    logDir: 'logs',
+                    command: 'nodemon'
+                }
+            }
+        },
 		'node-inspector': {
 			custom: {
 				options: {
@@ -114,6 +123,7 @@ module.exports = function(grunt) {
 		},
 		concurrent: {
 			default: ['nodemon', 'watch'],
+            deploy: ['forever', 'watch'],
 			debug: ['nodemon', 'watch', 'node-inspector'],
 			options: {
 				logConcurrentOutput: true,
@@ -159,6 +169,8 @@ module.exports = function(grunt) {
 
 	// Debug task.
 	grunt.registerTask('debug', ['lint', 'concurrent:debug']);
+
+    grunt.registerTask('deploy', ['lint', 'concurrent:deploy']);
 
 	// Lint task(s).
 	grunt.registerTask('lint', ['jshint', 'csslint']);

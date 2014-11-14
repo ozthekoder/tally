@@ -7,7 +7,7 @@ angular.module('tasks').controller('TasksController', ['$scope', '$stateParams',
 
         $scope.setCheckDay = function(day){
 
-            $scope.currentCheckOn = "Choose Day";
+            $scope.currentCheckOn = 'Choose Day';
             if($scope.task.repeat.period === 'weekly')
             {
                 $scope.checkOnWeek = day;

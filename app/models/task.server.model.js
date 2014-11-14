@@ -46,27 +46,7 @@ var TaskSchema = new Schema({
     priority : {
         type: Number,
         default : 0
-    },
-    expectedTime : {
-        type: Number,
-        min: 0,
-        max: 24
-    },
-    reports : [{
-        date : {
-            type: Date,
-            default: Date.now
-        },
-        status : {
-            type: Boolean,
-            default : false
-        },
-        actualTime : {
-            type : Number,
-            min: 0,
-            max: 24
-        }
-    }]
+    }
 });
 
 mongoose.model('Task', TaskSchema);

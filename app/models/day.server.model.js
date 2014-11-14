@@ -27,6 +27,10 @@ var DaySchema = new Schema({
         max: 31
     },
     reports : [{
+        task: {
+            type: Schema.Types.ObjectId,
+            ref: 'Task'
+        },
         date : {
             type: Date,
             default: Date.now
@@ -34,11 +38,6 @@ var DaySchema = new Schema({
         status : {
             type: Boolean,
             default : false
-        },
-        actualTime : {
-            type : Number,
-            min: 0,
-            max: 24
         }
     }]
 });

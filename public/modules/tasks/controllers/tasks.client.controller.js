@@ -127,5 +127,12 @@ angular.module('tasks').controller('TasksController', ['$scope', '$stateParams',
 
 
 		};
+        $scope.checkDone = function(task) {
+            task.today = true;
+            task.$update(function() {
+            }, function(errorResponse) {
+                $scope.error = errorResponse.data.message;
+            });
+        };
 	}
 ]);

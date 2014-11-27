@@ -13,6 +13,10 @@ angular.module('tasks').factory('Tasks', ['$resource',
                 method: 'GET',
                 url : 'tasks/today',
                 isArray : true
+            },
+            checkoff : {
+                method: 'PUT',
+                url : 'tasks/checkoff/:taskId'
             }
 		});
 	}

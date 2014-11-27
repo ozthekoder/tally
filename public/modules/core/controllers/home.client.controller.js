@@ -10,7 +10,7 @@ angular.module('core').factory('socket', function (socketFactory) {
 		// This provides Authentication context.
 		$scope.authentication = Authentication;
         if($scope.authentication.user)
-            $location.path('tasks/today')
+            $location.path('tasks/today');
         console.log('Auth: ');
         console.log($scope.authentication);
         socket.emit('message', { my : 'Hello World!!!' });

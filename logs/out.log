@@ -1,0 +1,445 @@
+
+[0m
+MEAN.JS application started on port 3000
+[0mGET / [36m304 [0m51.671 ms - -[0m
+[0mGET /lib/angular-resource/angular-resource.js [32m- [0m- ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [32m200 [0m28.860 ms - -[0m
+[0mGET /modules/core/css/core.css [32m200 [0m29.066 ms - 487[0m
+[0mGET /modules/users/css/users.css [32m200 [0m29.089 ms - 661[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m- [0m- ms - -[0m
+[0mGET /lib/icons/icons.css [32m200 [0m31.531 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [32m200 [0m43.008 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m14.038 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m12.004 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m22.982 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m28.126 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m21.031 ms - -[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m33.704 ms - -[0m
+[0mGET /config.js [32m200 [0m7.262 ms - 853[0m
+[0mGET /application.js [32m200 [0m7.374 ms - 730[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m6.517 ms - 127[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m200 [0m7.578 ms - 128[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m- [0m- ms - -[0m
+[0mGET /modules/users/users.client.module.js [32m200 [0m7.878 ms - 129[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m43.731 ms - -[0m
+[0mGET /modules/core/config/core.client.routes.js [32m200 [0m8.706 ms - 388[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m- [0m- ms - -[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m9.208 ms - 880[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m200 [0m11.408 ms - 431[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m- [0m- ms - -[0m
+[0mGET /modules/core/services/menus.client.service.js [32m200 [0m15.832 ms - -[0m
+[0mGET /modules/users/config/users.client.config.js [32m- [0m- ms - -[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m- [0m- ms - -[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m- [0m- ms - -[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m19.159 ms - -[0m
+[0mGET /modules/users/config/users.client.routes.js [32m200 [0m15.236 ms - -[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m200 [0m8.547 ms - -[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m200 [0m5.518 ms - 221[0m
+[0mGET /modules/core/img/background/fabric_of_squares_gray.png [36m304 [0m3.292 ms - -[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m3.722 ms - 244[0m
+[0mGET /lib/angular/angular.js [32m200 [0m159.411 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [36m304 [0m6.822 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [36m304 [0m6.592 ms - -[0m
+[0mGET /lib/icons/icons.css [36m304 [0m6.159 ms - -[0m
+[0mGET /modules/core/css/core.css [36m304 [0m6.060 ms - -[0m
+[0mGET /modules/users/css/users.css [36m304 [0m5.819 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css.map [32m200 [0m4.021 ms - 23071[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css.map [32m200 [0m6.817 ms - 220790[0m
+[0mGET /modules/core/img/brand/favicon.ico [36m304 [0m2.135 ms - -[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m200 [0m3.109 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m10.815 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m2.874 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m3.245 ms - -[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m17.512 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m9.114 ms - -[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m19.023 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m1.981 ms - -[0m
+[0mGET /config.js [32m200 [0m1.873 ms - 853[0m
+[0mGET /application.js [32m200 [0m1.638 ms - 730[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m1.649 ms - 127[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m200 [0m2.025 ms - 128[0m
+[0mGET /modules/users/users.client.module.js [32m200 [0m1.400 ms - 129[0m
+[0mGET /modules/core/config/core.client.routes.js [32m200 [0m2.189 ms - 388[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m200 [0m1.579 ms - 495[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m1.445 ms - 880[0m
+[0mGET /modules/core/services/menus.client.service.js [32m200 [0m3.347 ms - -[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m200 [0m1.436 ms - 431[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m200 [0m2.318 ms - 794[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m2.975 ms - -[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m200 [0m2.124 ms - 415[0m
+[0mGET /modules/users/config/users.client.config.js [32m200 [0m2.219 ms - 708[0m
+[0mGET /modules/users/config/users.client.routes.js [32m200 [0m1.600 ms - -[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m200 [0m1.824 ms - -[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m200 [0m1.757 ms - -[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m200 [0m2.115 ms - -[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m200 [0m1.268 ms - 221[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m1.444 ms - 244[0m
+[0mGET / [32m200 [0m6.096 ms - -[0m
+[0mGET /modules/core/css/core.css [32m200 [0m8.269 ms - 487[0m
+[0mGET /modules/users/css/users.css [32m200 [0m8.121 ms - 661[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [32m200 [0m10.547 ms - -[0m
+[0mGET /lib/icons/icons.css [32m200 [0m9.601 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [32m200 [0m19.283 ms - -[0m
+[0mGET /lib/angular-resource/angular-resource.js [32m200 [0m8.641 ms - -[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m200 [0m9.217 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m10.972 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m10.647 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m17.693 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m8.545 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m17.113 ms - -[0m
+[0mGET /config.js [32m200 [0m5.495 ms - 853[0m
+[0mGET /application.js [32m200 [0m4.807 ms - 730[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m4.540 ms - 127[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m26.766 ms - -[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m200 [0m6.633 ms - 128[0m
+[0mGET /modules/users/users.client.module.js [32m200 [0m6.450 ms - 129[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m28.342 ms - -[0m
+[0mGET /modules/core/config/core.client.routes.js [32m200 [0m6.632 ms - 388[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m200 [0m5.733 ms - 495[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m8.758 ms - 880[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m200 [0m8.261 ms - 431[0m
+[0mGET /modules/core/services/menus.client.service.js [32m200 [0m13.884 ms - -[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m200 [0m11.906 ms - 794[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m12.326 ms - -[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m200 [0m14.489 ms - 415[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m- [0m- ms - -[0m
+[0mGET /modules/users/config/users.client.config.js [32m200 [0m10.244 ms - 708[0m
+[0mGET /modules/users/config/users.client.routes.js [32m200 [0m11.334 ms - -[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m200 [0m11.937 ms - -[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m200 [0m11.974 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css.map [32m- [0m- ms - -[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m200 [0m10.118 ms - -[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m8.033 ms - 244[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css.map [32m200 [0m8.633 ms - 220790[0m
+[0mGET /modules/core/img/background/fabric_of_squares_gray.png [32m200 [0m4.298 ms - 56471[0m
+[0mGET /lib/angular/angular.js [32m200 [0m127.224 ms - -[0m
+[0mGET /modules/core/views/header.client.view.html [32m200 [0m3.323 ms - -[0m
+[0mGET /modules/core/views/home.client.view.html [32m200 [0m1.731 ms - 58[0m
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: {} }
+recieved message from { my: 'Hello World!!!' }
+broadcasting message
+payload is { my: 'Hello World!!!' }
+broadcast complete
+[0mGET / [32m200 [0m5.198 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [32m200 [0m4.293 ms - -[0m
+[0mGET /lib/icons/icons.css [32m200 [0m5.109 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [32m200 [0m14.088 ms - -[0m
+[0mGET /modules/core/css/core.css [32m200 [0m5.143 ms - 487[0m
+[0mGET /modules/users/css/users.css [32m200 [0m4.155 ms - 661[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m200 [0m10.428 ms - -[0m
+[0mGET /lib/angular-resource/angular-resource.js [32m200 [0m11.392 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m11.574 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m12.532 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m20.013 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m15.286 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m26.987 ms - -[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m- [0m- ms - -[0m
+[0mGET /config.js [32m200 [0m18.512 ms - 853[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m38.864 ms - -[0m
+[0mGET /application.js [32m200 [0m15.492 ms - 730[0m
+[0mGET /modules/users/users.client.module.js [32m- [0m- ms - -[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m38.713 ms - -[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m- [0m- ms - -[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m12.773 ms - 127[0m
+[0mGET /modules/core/services/menus.client.service.js [32m- [0m- ms - -[0m
+[0mGET /modules/core/config/core.client.routes.js [32m200 [0m10.941 ms - 388[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m7.116 ms - 880[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m200 [0m2.485 ms - 431[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m200 [0m10.117 ms - 794[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m200 [0m10.292 ms - 415[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m11.558 ms - -[0m
+[0mGET /modules/users/config/users.client.config.js [32m200 [0m9.189 ms - 708[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m- [0m- ms - -[0m
+[0mGET /modules/users/config/users.client.routes.js [32m200 [0m9.363 ms - -[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m200 [0m8.473 ms - -[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m200 [0m7.253 ms - -[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m200 [0m7.018 ms - 221[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m5.918 ms - 244[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css.map [32m200 [0m2.694 ms - 220790[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css.map [32m200 [0m3.739 ms - 23071[0m
+[0mGET /modules/core/img/background/fabric_of_squares_gray.png [32m200 [0m3.511 ms - 56471[0m
+[0mGET /lib/angular/angular.js [32m200 [0m132.233 ms - -[0m
+[0mGET /modules/core/views/home.client.view.html [32m200 [0m2.794 ms - 58[0m
+[0mGET /modules/core/views/header.client.view.html [32m200 [0m3.320 ms - -[0m
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: {} }
+recieved message from { my: 'Hello World!!!' }
+broadcasting message
+payload is { my: 'Hello World!!!' }
+broadcast complete
+[0mGET / [32m200 [0m5.087 ms - -[0m
+[0mGET /modules/core/css/core.css [32m200 [0m11.813 ms - 487[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [32m200 [0m12.770 ms - -[0m
+[0mGET /modules/users/css/users.css [32m200 [0m12.223 ms - 661[0m
+[0mGET /lib/icons/icons.css [32m200 [0m12.995 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [32m200 [0m18.408 ms - -[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m200 [0m6.952 ms - -[0m
+[0mGET /lib/angular-resource/angular-resource.js [32m200 [0m8.420 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m9.232 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m10.131 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m21.534 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m12.279 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m18.735 ms - -[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m- [0m- ms - -[0m
+[0mGET /config.js [32m200 [0m13.749 ms - 853[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m37.876 ms - -[0m
+[0mGET /application.js [32m200 [0m12.812 ms - 730[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m12.276 ms - 127[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m34.548 ms - -[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m- [0m- ms - -[0m
+[0mGET /modules/users/users.client.module.js [32m200 [0m7.072 ms - 129[0m
+[0mGET /modules/core/config/core.client.routes.js [32m200 [0m8.860 ms - 388[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m200 [0m8.705 ms - 495[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m9.130 ms - 880[0m
+[0mGET /modules/core/services/menus.client.service.js [32m200 [0m9.521 ms - -[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m200 [0m5.001 ms - 794[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m7.616 ms - -[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m200 [0m8.886 ms - 415[0m
+[0mGET /modules/users/config/users.client.config.js [32m200 [0m8.744 ms - 708[0m
+[0mGET /modules/users/config/users.client.routes.js [32m200 [0m10.295 ms - -[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m200 [0m10.646 ms - -[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m200 [0m11.200 ms - -[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m200 [0m7.566 ms - -[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m200 [0m7.414 ms - 221[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m9.144 ms - 244[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css.map [32m200 [0m9.881 ms - 220790[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css.map [32m200 [0m6.286 ms - 23071[0m
+[0mGET /modules/core/img/background/fabric_of_squares_gray.png [32m200 [0m4.735 ms - 56471[0m
+[0mGET /lib/angular/angular.js [32m200 [0m125.809 ms - -[0m
+[0mGET /modules/core/views/home.client.view.html [32m200 [0m3.288 ms - 58[0m
+[0mGET /modules/core/views/header.client.view.html [32m200 [0m4.562 ms - -[0m
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: {} }
+recieved message from { my: 'Hello World!!!' }
+broadcasting message
+payload is { my: 'Hello World!!!' }
+broadcast complete
+14 Nov 12:55:19 - [33m[nodemon] v1.2.1[39m
+14 Nov 12:55:19 - [33m[nodemon] to restart at any time, enter `rs`[39m
+14 Nov 12:55:19 - [33m[nodemon] watching: *.*[39m
+14 Nov 12:55:19 - [32m[nodemon] starting `node server.js`[39m
+
+[0m
+MEAN.JS application started on port 3000
+[0mGET / [32m200 [0m62.514 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [32m200 [0m9.390 ms - -[0m
+[0mGET /lib/icons/icons.css [32m200 [0m16.425 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [32m200 [0m30.915 ms - -[0m
+[0mGET /modules/core/css/core.css [32m200 [0m13.520 ms - 487[0m
+[0mGET /modules/users/css/users.css [32m200 [0m13.111 ms - 661[0m
+[0mGET /lib/angular-resource/angular-resource.js [32m200 [0m18.700 ms - -[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m200 [0m14.815 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m14.120 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m13.900 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m26.562 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m29.506 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m34.128 ms - -[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m44.545 ms - -[0m
+[0mGET /config.js [32m200 [0m9.308 ms - 853[0m
+[0mGET /modules/core/config/core.client.routes.js [32m- [0m- ms - -[0m
+[0mGET /application.js [32m200 [0m10.753 ms - 730[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m43.506 ms - -[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m11.243 ms - 127[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m200 [0m11.739 ms - 128[0m
+[0mGET /modules/users/users.client.module.js [32m200 [0m11.695 ms - 129[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m- [0m- ms - -[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m200 [0m10.253 ms - 495[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m9.397 ms - 880[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m200 [0m8.459 ms - 431[0m
+[0mGET /modules/users/config/users.client.routes.js [32m- [0m- ms - -[0m
+[0mGET /modules/core/services/menus.client.service.js [32m200 [0m12.494 ms - -[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m- [0m- ms - -[0m
+[0mGET /modules/users/config/users.client.config.js [32m200 [0m15.497 ms - 708[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m200 [0m16.433 ms - 415[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m18.344 ms - -[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m200 [0m19.450 ms - -[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m200 [0m9.060 ms - 221[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m200 [0m16.817 ms - -[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m12.000 ms - 244[0m
+[0mGET /modules/core/img/background/fabric_of_squares_gray.png [32m200 [0m5.335 ms - 56471[0m
+[0mGET /lib/angular/angular.js [32m200 [0m152.027 ms - -[0m
+[0mGET /modules/core/views/home.client.view.html [32m200 [0m5.156 ms - 58[0m
+[0mGET /modules/core/views/header.client.view.html [32m200 [0m6.586 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css.map [32m200 [0m3.092 ms - 23071[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css.map [32m200 [0m3.640 ms - 220790[0m
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: {} }
+recieved message from { my: 'Hello World!!!' }
+broadcasting message
+payload is { my: 'Hello World!!!' }
+broadcast complete
+[0mGET / [32m200 [0m6.290 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [32m200 [0m10.853 ms - -[0m
+[0mGET /lib/icons/icons.css [32m200 [0m10.598 ms - -[0m
+[0mGET /modules/core/css/core.css [32m200 [0m10.472 ms - 487[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [32m200 [0m19.772 ms - -[0m
+[0mGET /modules/users/css/users.css [32m200 [0m11.144 ms - 661[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m200 [0m12.620 ms - -[0m
+[0mGET /lib/angular-resource/angular-resource.js [32m200 [0m13.266 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m10.992 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m9.817 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m21.099 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m12.850 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m18.989 ms - -[0m
+[0mGET /config.js [32m200 [0m8.776 ms - 853[0m
+[0mGET /application.js [32m200 [0m6.945 ms - 730[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m5.803 ms - 127[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m30.537 ms - -[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m200 [0m6.446 ms - 128[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m32.880 ms - -[0m
+[0mGET /modules/users/users.client.module.js [32m200 [0m12.512 ms - 129[0m
+[0mGET /modules/core/config/core.client.routes.js [32m200 [0m13.191 ms - 388[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m200 [0m14.271 ms - 495[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m14.082 ms - 880[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m200 [0m10.634 ms - 431[0m
+[0mGET /modules/core/services/menus.client.service.js [32m200 [0m12.675 ms - -[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m200 [0m9.417 ms - 794[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m200 [0m7.973 ms - 415[0m
+[0mGET /modules/users/config/users.client.routes.js [32m- [0m- ms - -[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m9.124 ms - -[0m
+[0mGET /modules/users/config/users.client.config.js [32m200 [0m9.780 ms - 708[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m- [0m- ms - -[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m200 [0m8.988 ms - -[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m200 [0m8.794 ms - -[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m200 [0m9.754 ms - -[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m7.000 ms - 244[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css.map [32m200 [0m4.433 ms - 23071[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css.map [32m200 [0m8.157 ms - 220790[0m
+[0mGET /modules/core/img/background/fabric_of_squares_gray.png [32m200 [0m4.267 ms - 56471[0m
+[0mGET /lib/angular/angular.js [32m200 [0m130.258 ms - -[0m
+[0mGET /modules/core/views/home.client.view.html [32m200 [0m4.616 ms - 58[0m
+[0mGET /modules/core/views/header.client.view.html [32m200 [0m5.330 ms - -[0m
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: {} }
+recieved message from { my: 'Hello World!!!' }
+broadcasting message
+payload is { my: 'Hello World!!!' }
+broadcast complete
+[0mGET / [32m200 [0m6.358 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [32m200 [0m10.059 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [32m200 [0m21.406 ms - -[0m
+[0mGET /lib/icons/icons.css [32m200 [0m5.070 ms - -[0m
+[0mGET /modules/core/css/core.css [32m200 [0m5.004 ms - 487[0m
+[0mGET /modules/users/css/users.css [32m200 [0m5.424 ms - 661[0m
+[0mGET /lib/angular-resource/angular-resource.js [32m200 [0m9.259 ms - -[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m200 [0m10.805 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m10.365 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m12.974 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m21.043 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m15.158 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m18.640 ms - -[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m28.819 ms - -[0m
+[0mGET /config.js [32m200 [0m10.234 ms - 853[0m
+[0mGET /application.js [32m200 [0m9.347 ms - 730[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m8.066 ms - 127[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m200 [0m7.763 ms - 128[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m35.847 ms - -[0m
+[0mGET /modules/users/users.client.module.js [32m200 [0m7.792 ms - 129[0m
+[0mGET /modules/core/config/core.client.routes.js [32m200 [0m7.564 ms - 388[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m200 [0m7.383 ms - 495[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m7.335 ms - 880[0m
+[0mGET /modules/core/services/menus.client.service.js [32m200 [0m7.517 ms - -[0m
+[0mGET /modules/users/config/users.client.routes.js [32m- [0m- ms - -[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m200 [0m8.269 ms - 431[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m- [0m- ms - -[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m200 [0m9.848 ms - 794[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m200 [0m9.014 ms - 415[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m11.833 ms - -[0m
+[0mGET /modules/users/config/users.client.config.js [32m200 [0m10.983 ms - 708[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m200 [0m10.547 ms - -[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m200 [0m8.367 ms - 221[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m200 [0m10.844 ms - -[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m6.736 ms - 244[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css.map [32m200 [0m5.499 ms - 23071[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css.map [32m200 [0m8.704 ms - 220790[0m
+[0mGET /modules/core/img/background/fabric_of_squares_gray.png [32m200 [0m4.009 ms - 56471[0m
+[0mGET /lib/angular/angular.js [32m200 [0m132.309 ms - -[0m
+[0mGET /modules/core/views/home.client.view.html [32m200 [0m2.823 ms - 58[0m
+[0mGET /modules/core/views/header.client.view.html [32m200 [0m3.675 ms - -[0m
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  passport: {} }
+recieved message from { my: 'Hello World!!!' }
+broadcasting message
+payload is { my: 'Hello World!!!' }
+broadcast complete
+[0mGET /modules/users/views/authentication/signin.client.view.html [32m200 [0m4.231 ms - -[0m
+[0mGET /lib/icons/fonts/all.woff [32m200 [0m4.758 ms - 35348[0m
+[0mPOST /auth/signin [32m200 [0m86.885 ms - 241[0m
+recieved message from { my: 'Hello World!!!' }
+broadcasting message
+payload is { my: 'Hello World!!!' }
+broadcast complete
+[0mGET /modules/tasks/views/today-tasks.client.view.html [32m200 [0m5.898 ms - 414[0m
+[0mGET /tasks/today [32m200 [0m10.674 ms - 340[0m
+[0mGET / [32m200 [0m9.662 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css [32m200 [0m18.148 ms - -[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css [32m200 [0m27.406 ms - -[0m
+[0mGET /modules/core/css/core.css [32m200 [0m16.448 ms - 487[0m
+[0mGET /lib/angular-cookies/angular-cookies.js [32m- [0m- ms - -[0m
+[0mGET /lib/icons/icons.css [32m200 [0m21.263 ms - -[0m
+[0mGET /modules/users/css/users.css [32m200 [0m19.082 ms - 661[0m
+[0mGET /lib/angular-resource/angular-resource.js [32m200 [0m17.388 ms - -[0m
+[0mGET /lib/angular-touch/angular-touch.js [32m200 [0m17.824 ms - -[0m
+[0mGET /lib/angular-sanitize/angular-sanitize.js [32m200 [0m18.181 ms - -[0m
+[0mGET /lib/angular-animate/angular-animate.js [32m200 [0m27.182 ms - -[0m
+[0mGET /lib/angular-socket-io/socket.js [32m200 [0m13.709 ms - -[0m
+[0mGET /lib/angular-ui-utils/ui-utils.js [32m200 [0m18.968 ms - -[0m
+[0mGET /lib/angular-ui-router/release/angular-ui-router.js [32m200 [0m28.980 ms - -[0m
+[0mGET /config.js [32m200 [0m8.528 ms - 853[0m
+[0mGET /lib/angular-bootstrap/ui-bootstrap-tpls.js [32m200 [0m31.930 ms - -[0m
+[0mGET /application.js [32m200 [0m9.459 ms - 730[0m
+[0mGET /modules/core/core.client.module.js [32m200 [0m9.208 ms - 127[0m
+[0mGET /modules/tasks/tasks.client.module.js [32m200 [0m10.761 ms - 128[0m
+[0mGET /modules/users/users.client.module.js [32m200 [0m11.483 ms - 129[0m
+[0mGET /modules/core/config/core.client.routes.js [32m200 [0m14.536 ms - 388[0m
+[0mGET /modules/tasks/config/tasks.client.routes.js [32m- [0m- ms - -[0m
+[0mGET /modules/core/controllers/header.client.controller.js [32m200 [0m14.030 ms - 495[0m
+[0mGET /modules/core/controllers/home.client.controller.js [32m200 [0m15.008 ms - 880[0m
+[0mGET /modules/core/services/menus.client.service.js [32m200 [0m31.596 ms - -[0m
+[0mGET /modules/tasks/config/tasks.client.config.js [32m200 [0m27.444 ms - 431[0m
+[0mGET /modules/tasks/services/tasks.client.service.js [32m200 [0m26.418 ms - 415[0m
+[0mGET /modules/users/controllers/settings.client.controller.js [32m- [0m- ms - -[0m
+[0mGET /modules/tasks/controllers/tasks.client.controller.js [32m200 [0m36.214 ms - -[0m
+[0mGET /modules/users/config/users.client.config.js [32m200 [0m16.799 ms - 708[0m
+[0mGET /modules/users/config/users.client.routes.js [32m200 [0m16.997 ms - -[0m
+[0mGET /modules/users/controllers/authentication.client.controller.js [32m200 [0m18.095 ms - -[0m
+[0mGET /modules/users/controllers/password.client.controller.js [32m200 [0m12.304 ms - -[0m
+[0mGET /modules/users/services/authentication.client.service.js [32m200 [0m7.912 ms - 221[0m
+[0mGET /modules/users/services/users.client.service.js [32m200 [0m7.188 ms - 244[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap.css.map [32m200 [0m8.225 ms - 220790[0m
+[0mGET /lib/bootstrap/dist/css/bootstrap-theme.css.map [32m200 [0m7.336 ms - 23071[0m
+[0mGET /modules/core/img/background/fabric_of_squares_gray.png [32m200 [0m5.867 ms - 56471[0m
+[0mGET /lib/angular/angular.js [32m200 [0m155.038 ms - -[0m
+[0mGET /modules/tasks/views/today-tasks.client.view.html [32m200 [0m4.862 ms - 404[0m
+[0mGET /modules/core/views/header.client.view.html [32m200 [0m5.681 ms - -[0m
+[0mGET /tasks/today [32m200 [0m7.389 ms - 340[0m
+14 Nov 13:36:14 - [32m[nodemon] restarting due to changes...[39m
+14 Nov 13:36:14 - [32m[nodemon] starting `node server.js`[39m
+
+[0m
+MEAN.JS application started on port 3000

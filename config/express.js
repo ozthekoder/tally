@@ -19,6 +19,7 @@ var express = require('express'),
 	}),
 	flash = require('connect-flash'),
 	config = require('./config'),
+    scheduler = require('./scheduler'),
 	consolidate = require('consolidate'),
 	path = require('path');
 
@@ -145,6 +146,9 @@ module.exports = function(db) {
 			error: 'Not Found'
 		});
 	});
+
+    var cron = new scheduler();
+
 
     io.use(function(socket, next) {
         sess(socket.request, socket.request.res, next);

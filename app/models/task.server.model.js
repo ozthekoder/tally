@@ -46,6 +46,10 @@ var TaskSchema = new Schema({
     priority : {
         type: Number,
         default : 0
+    },
+    today : {
+        type: Boolean,
+        default : false
     }
 });
 

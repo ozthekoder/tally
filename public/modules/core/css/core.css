@@ -1,7 +1,7 @@
 body
 {
-    background: url('../img/background/fabric_of_squares_gray.png');
-    background-repeat: repeat;
+    /*background: url('../img/background/fabric_of_squares_gray.png');*/
+    /*background-repeat: repeat;*/
 }
 .content {
 	margin-top: 50px;
@@ -23,4 +23,10 @@ body
     height: auto;
     max-height: 200px;
     overflow-x: hidden;
+}
+
+.tally-check-button
+{
+    padding: 5px 8px 2px;
+    font-size: 16px;
 }

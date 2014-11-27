@@ -6,6 +6,7 @@
 var mongoose = require('mongoose'),
     errorHandler = require('./errors'),
     Task = mongoose.model('Task'),
+    async = require('async'),
     _ = require('lodash');
 
 /**

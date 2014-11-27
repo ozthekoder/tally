@@ -2,9 +2,12 @@
     <div class="page-header">
         <h1>Today</h1>
     </div>
-    <div data-ng-repeat="task in tasks" class="panel panel-default">
-        <div>{{ task.title }}</div>
-    </div>
+    <alert class="clearfix" data-ng-repeat="task in tasks" type="{{ task.today ? 'success' : 'danger' }}">
+        <h4 class="pull-left">{{ task.title }}</h4>
+        <div data-ng-if="!task.today" class="pull-right">
+            <button data-ng-click="checkDone(task)" class="tally-check-button btn btn-sm btn-success icon-check"></button>
+        </div>
+    </alert>
     <div class="alert alert-warning text-center" data-ng-if="tasks.$resolved && !tasks.length">
         Nothing to do today! Woohoo!
     </div>
